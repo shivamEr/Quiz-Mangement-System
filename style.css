@@ -1,34 +1,86 @@
-.parent{
-    background-color: aquamarine;
+.parent {
+    background: linear-gradient(35deg, #f8b968, #5d78b5);
     padding-top: 20px;
-   
+    height: 100%;
+
 }
-.nav{
+
+.logo img {
+    height: 15vh;
+    width: 20vh;
+}
+
+.nav {
     display: flex;
     justify-content: space-between;
-    margin: 2% 0%; 
+    margin: 2% 0%;
     padding-left: 2%;
 }
-.row1{
+
+.row1 {
     display: flex;
     justify-content: space-between;
     margin-top: 2%;
 }
-.row2{
+
+.row2 {
     display: flex;
     justify-content: space-around;
     padding: 2% 0%;
 }
-.main{
+
+.main {
     margin: 15% 0%;
     display: flex;
     justify-content: space-evenly;
 }
-.card h4,p{
-    color:  white;
+
+.card h4,
+p {
+    color: white;
 }
-.card{
+
+.card {
     border-radius: 20px;
     padding: 2%;
     margin-left: 2%;
+}
+
+
+/* Login page  */
+.form-container {
+    height: 100%;
+    width: 25%;
+    margin: 0 auto;
+    background-color: #21336A;
+    border-radius: 20px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    background: transparent;
+    border: 1px solid white;
+    margin: 50px;
+    border-radius: 5px;
+
+}
+
+::placeholder {
+    color: white;
+    padding-left: 5px;
+}
+
+.form input {
+    margin-bottom: 20px;
+    outline: none;
+    color: white;
+}
+
+p {
+    font-size: 12px;
 }
