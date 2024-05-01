@@ -49,8 +49,8 @@ p {
 
 /* Login page  */
 .form-container {
-    height: 100%;
-    width: 25%;
+    height: 55vh;
+    width: 55vh;
     margin: 0 auto;
     background-color: #21336A;
     border-radius: 20px;
@@ -83,4 +83,56 @@ input {
 
 p {
     font-size: 12px;
+}
+
+/* Register file  */
+.form-container-register{
+    margin: 30px auto;
+    /* padding: 30px 30px; */
+    width: 35vw;
+    background-color: #21336A;
+    border-radius: 20px;
+}
+.form-container-register input{
+    width: 80%;
+    margin-bottom: 20px;
+    outline: none;
+    color: white;
+    
+}
+.form-container-register select{
+    background: transparent;
+    color: white;
+    width: 80%;
+    margin-bottom: 20px;
+    border: 1px solid white;
+}
+input select option{
+    color: green;
+}
+@media (max-width:500px) {
+    .form-container-register,.form-container{
+        width: 70%;
+    }
+}
+
+/* Index.html css */
+/* .collapse li a{
+    color:black;
+} */
+.main-content{
+    background: linear-gradient(35deg, #f8b968, #5d78b5);
+    padding-top: 60px;
+    height: 100vh;
+}
+.course-card{
+    margin: 30px 30px;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.main-content button{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-right: 15%;
 }
